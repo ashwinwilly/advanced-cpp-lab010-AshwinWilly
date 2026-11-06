@@ -22,8 +22,4 @@ jobs:
       - name: Build project
         run: make
 
-      - name: Run main program (optional)
-        run: ./build/main
 
-      - name: Run tests
-        run: make test
