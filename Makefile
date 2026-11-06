@@ -19,7 +19,7 @@ TEST_EXECUTABLE := $(BUILD_DIR)/test.out
 
 .PHONY: all clean run test
 
-all: $(EXECUTABLE)
+all:test
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
